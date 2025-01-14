@@ -1,2 +1,2 @@
 #!/bin/bash
-kubeadm join --config=kubeadm-join-config.yaml
+kubeadm join --config=kubeadm-compute-join.yaml
