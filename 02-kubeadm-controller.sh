@@ -1,2 +1,2 @@
 #!/bin/bash
-kubeadm init --config=kubeadm-config.yaml
+kubeadm init --config=kubeadm-controller-config.yaml
