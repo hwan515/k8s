@@ -53,7 +53,7 @@ EOF
 modprobe br_netfilter
 modprobe overlay
 
-cat <<EOF>> /etc/hosts
+cat <<EOF> /etc/hosts
 192.168.10.10 node1.example.com node1
 192.168.10.20 node2.example.com node2
 192.168.10.30 node3.example.com node3
